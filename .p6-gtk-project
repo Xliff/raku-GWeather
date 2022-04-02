@@ -1,0 +1,8 @@
+prefix=GWeather
+modules=
+lib=gweather
+call_prefix=
+include-directory=/usr/src/libgweather-40.0/libgweather
+backups=backup,bitbucket,google-backup,azure-backup,hut
+build_exclude=
+struct-prefix=
