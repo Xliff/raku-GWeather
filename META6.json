@@ -1,0 +1,29 @@
+{
+    "depends": [
+	    "p6-GLib"
+    ],
+    "description": "Perl6 library bindings for the libgweather library",
+    "version": "r0.1",
+    "meta-version": "0",
+    "license": "GPL-3.0",
+    "source-url": "https://github.com/Xliff/p6-Weather",
+    "provides": {
+      "GWeather::Raw::Definitions" :  "lib/GWeather/Raw/Definitions.pm6" ,
+      "GWeather::Raw::Enums"       :  "lib/GWeather/Raw/Enums.pm6"       ,
+      "GWeather::Raw::Structs"     :  "lib/GWeather/Raw/Structs.pm6"     ,
+      "GWeather::Raw::Timezone"    :  "lib/GWeather/Raw/Timezone.pm6"    ,
+      "GWeather::Raw::Exports"     :  "lib/GWeather/Raw/Exports.pm6"     ,
+      "GWeather::Raw::Types"       :  "lib/GWeather/Raw/Types.pm6"       ,
+      "GWeather::Timezone"         :  "lib/GWeather/Timezone.pm6"        ,
+      "GWeather::Raw::Info"        :  "lib/GWeather/Raw/Info.pm6"        ,
+      "GWeather::Raw::Location"    :  "lib/GWeather/Raw/Location.pm6"    ,
+      "GWeather::Info"             :  "lib/GWeather/Info.pm6"            ,
+      "GWeather::Location"         :  "lib/GWeather/Location.pm6"
+    },
+    "name": "p6-Weather",
+    "perl": "6.c",
+    "test-depends": [],
+    "build-depends": [ ],
+    "support": {"source": null},
+    "authors": ["clifton.wood@gmail.com"]
+}
